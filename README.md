@@ -22,11 +22,11 @@ Um scraper simples que usa Puppeteer e Cheerio para coletar títulos e URLs de l
 
 Executar o scraper:
 
-   npm start
+npm start
 
 ou
 
-   node ./src/index.js
+node ./src/index.js
 
 O script percorre os elementos `article` da página alvo e imprime no console o título do livro e a URL.
 
@@ -38,7 +38,6 @@ O script percorre os elementos `article` da página alvo e imprime no console o 
 ## Observações e solução de problemas
 
 - Arquivo de entrada: `src/index.js` (definido como `main` em package.json).
-- Atenção: há um pequeno erro no código de exemplo: `puppeteer.launch({ handless: false })` deve ser `headless: false`.
 - Se ocorrerem erros relacionados ao navegador, rode `npm run install-browser` e verifique se o Puppeteer está permitido a abrir janelas no seu ambiente.
 
 ## Exemplo de saída
