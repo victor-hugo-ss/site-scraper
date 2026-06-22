@@ -1,0 +1,17 @@
+{
+  "name": "project-site-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "install-browser": "puppeteer browsers install chrome"
+  },
+  "type": "module",
+  "repository": "https://github.com/victor-hugo-ss/site-scraper.git",
+  "author": "victor-hugo-ss <victorabreu2512@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "puppeteer": "^25.2.0"
+  }
+}
